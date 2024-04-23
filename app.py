@@ -18,7 +18,7 @@ st.write("This tool allows you to visually and sonically explore your music, its
 
 likes_dump = json.loads(open('likes_dump.json').read())
 
-api_key = st.secrets["8e58a6dd4525c026a2bf63941810e2b3"]
+api_key = 8e58a6dd4525c026a2bf63941810e2b3
 
 EMBEDDING_TYPE = "quantized"
 
